@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		715EE4822278F60F008D636B /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EE47F2278F60F008D636B /* TodoTableViewController.swift */; };
+		715EE4832278F60F008D636B /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EE4802278F60F008D636B /* CategoryTableViewController.swift */; };
+		715EE4842278F60F008D636B /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715EE4812278F60F008D636B /* SwipeTableViewController.swift */; };
 		71BA9E382278F0D800383BF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA9E372278F0D800383BF2 /* AppDelegate.swift */; };
-		71BA9E3A2278F0D800383BF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BA9E392278F0D800383BF2 /* ViewController.swift */; };
 		71BA9E3D2278F0D800383BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BA9E3B2278F0D800383BF2 /* Main.storyboard */; };
 		71BA9E3F2278F0DA00383BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71BA9E3E2278F0DA00383BF2 /* Assets.xcassets */; };
 		71BA9E422278F0DA00383BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71BA9E402278F0DA00383BF2 /* LaunchScreen.storyboard */; };
@@ -17,9 +19,11 @@
 
 /* Begin PBXFileReference section */
 		46292680E2CA1EE6597EBBF8 /* Pods_Todoey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		715EE47F2278F60F008D636B /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		715EE4802278F60F008D636B /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		715EE4812278F60F008D636B /* SwipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		71BA9E342278F0D800383BF2 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71BA9E372278F0D800383BF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		71BA9E392278F0D800383BF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71BA9E3C2278F0D800383BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71BA9E3E2278F0DA00383BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71BA9E412278F0DA00383BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 		715EE47D2278F2B8008D636B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				71BA9E392278F0D800383BF2 /* ViewController.swift */,
+				715EE4802278F60F008D636B /* CategoryTableViewController.swift */,
+				715EE4812278F60F008D636B /* SwipeTableViewController.swift */,
+				715EE47F2278F60F008D636B /* TodoTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -226,8 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71BA9E3A2278F0D800383BF2 /* ViewController.swift in Sources */,
+				715EE4822278F60F008D636B /* TodoTableViewController.swift in Sources */,
 				71BA9E382278F0D800383BF2 /* AppDelegate.swift in Sources */,
+				715EE4832278F60F008D636B /* CategoryTableViewController.swift in Sources */,
+				715EE4842278F60F008D636B /* SwipeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
